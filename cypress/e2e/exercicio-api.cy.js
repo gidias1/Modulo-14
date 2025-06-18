@@ -12,7 +12,6 @@ it('Deve validar contrato de usuários', () => {
   });
 });
 
-
   it('Deve listar usuários cadastrados', () => { 
     cy.request({
       method: 'GET',
@@ -40,7 +39,6 @@ it('Deve validar contrato de usuários', () => {
     expect(response.body.message).to.equal('Cadastro realizado com sucesso');
   });
 });
-
 
   it('Deve validar um usuário com email inválido', () => {
     cy.request({
