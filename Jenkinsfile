@@ -11,7 +11,7 @@ pipeline {
         stage('Instalar dependências') {
             steps {
                 dir('api-tests') {
-                    bat 'npm install'
+                    bat 'npm ci'
                 }
             }
         }
@@ -25,3 +25,4 @@ pipeline {
         }
     }
 }
+
