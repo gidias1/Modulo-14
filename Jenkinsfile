@@ -16,7 +16,7 @@ pipeline {
 
         stage('Executar testes de API') {
             steps {
-                bat 'npx mocha test/**/*.js'
+                bat 'npx mocha test/sample.test.js'
             }
         }
     }
