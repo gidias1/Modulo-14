@@ -1,7 +1,0 @@
-const assert = require('assert');
-
-describe('Teste básico', () => {
-  it('2 + 2 deve ser igual a 4', () => {
-    assert.strictEqual(2 + 2, 4);
-  });
-});
